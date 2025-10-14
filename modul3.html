@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Aldo 2455201036</title>
+	</head>
+	<body>
+		<table border="1">
+			<tr>
+				<td>baris 1 sel 1</td>
+				<td>baris 2 sel 2</td>
+			</tr>
+			<tr>
+				<td>baris 2 sel 1</td>
+				<td>baris 2 sel 2</td>
+			</tr>
+		</table>
+		<br />
+		<table border="1">
+			<caption align="top">
+				<b>Daftar Mahasiswa</b>
+			</caption>
+			<tr>
+				<th>No</th>
+				<th>NPM</th>
+				<th>Nama</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>06.100.001</td>
+				<td>Amin A. Angkasa</td>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>06.100.002</td>
+				<td>Bayu B. Bernardi</td>
+			</tr>
+		</table>
+		<br />
+
+		<table
+			border="1"
+			bgcolor="green"
+			width="300"
+			height="100"
+		>
+			<tr height="30">
+				<td>baris 1 kolom 1</td>
+				<td>baris 1 kolom 2</td>
+			</tr>
+			<tr height="70">
+				<td>Baris 2 kolom 1</td>
+				<td background="bg.jpg">
+					Baris 2 kolom 2 <br /><br />
+					Background bagus
+				</td>
+			</tr>
+		</table>
+		<br />
+		<table
+			border="1"
+			align="center"
+		>
+			<caption align="top">
+				<b>Daftar Mahasiswa</b>
+			</caption>
+			<tr>
+				<th>No</th>
+				<th>NPM</th>
+				<th>Nama</th>
+			</tr>
+			<tr>
+				<td
+					align="center"
+					width="20"
+				>
+					1
+				</td>
+				<td
+					align="center"
+					width="80"
+					height="50"
+				>
+					06.100.001
+				</td>
+				<td
+					valign="top"
+					align=" right"
+					width="180"
+					height="50"
+				>
+					Amin A. Angkasa
+				</td>
+			</tr>
+			<tr>
+				<td width="20">2</td>
+				<td
+					valign="top"
+					align="left"
+					width="80"
+					height="70"
+				>
+					06.100.002
+				</td>
+				<td
+					valign="bottom"
+					align=" left"
+					width="180"
+					height="50"
+				>
+					Beni B.Bernardi
+				</td>
+			</tr>
+		</table>
+		<br />
+		<table
+			border="1"
+			bgcolor="white"
+			align="center"
+		>
+			<caption align="top">
+				<b> Tabel Daftar Nilai Mahasiswa </b>
+			</caption>
+			<tr bgcolor="gray">
+				<th rowspan="2">No</th>
+				<th rowspan="2">NPM</th>
+				<th rowspan="2">Nama</th>
+				<th colspan="2">Nilai</th>
+			</tr>
+			<tr bgcolor="gray">
+				<th>UTS</th>
+				<th>UAS</th>
+			</tr>
+			<tr>
+				<td
+					align="center"
+					width="20"
+				>
+					1.
+				</td>
+				<td
+					align="left"
+					valign="middle"
+					width="80"
+					height="40"
+				>
+					06.100.001
+				</td>
+				<td
+					align="left"
+					valign="middle"
+					width="180"
+					height="40"
+				>
+					Amin A. Angkasa
+				</td>
+				<td
+					align="center"
+					valign="middle"
+				>
+					70
+				</td>
+				<td
+					align="center"
+					valign="middle"
+				>
+					80
+				</td>
+			</tr>
+			<tr>
+				<td width="20">2.</td>
+				<td
+					align="left"
+					valign="middle"
+					width="80"
+					height="40"
+				>
+					06.100.002
+				</td>
+				<td
+					align="left"
+					valign="middle"
+					width="180"
+					height="40"
+				>
+					Beni B. Bernardi
+				</td>
+				<td
+					align="center"
+					valign="middle"
+				>
+					70
+				</td>
+				<td
+					align="center"
+					valign="middle"
+				>
+					80
+				</td>
+			</tr>
+		</table>
+		<br />
+		<b>Login</b><br /><br />
+
+		<form
+			method="post"
+			action="data.html"
+		>
+			<table>
+				<tr>
+					<td>User</td>
+					<td>
+						<input
+							type="text"
+							name="User"
+							size="20"
+						/>
+					</td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td>
+						<input
+							type="text"
+							name="Password"
+							size="20"
+						/>
+					</td>
+				</tr>
+			</table>
+		</form>
+
+		<br />
+		<form method="post">
+			<b>Bacaan yang Anda sukai:</b><br />
+			<input
+				type="checkbox"
+				name="bacaan"
+				value="novel"
+			/>
+			Novel <br />
+			<input
+				type="checkbox"
+				name="bacaan"
+				value="koran"
+			/>
+			Koran <br />
+			<input
+				type="checkbox"
+				name="bacaan"
+				value="majalah"
+			/>
+			Majalah <br />
+			<input
+				type="checkbox"
+				name="bacaan"
+				value="tabloid"
+			/>
+			Tabloid <br /><br />
+
+			<b>Apakah Anda setuju dengan kenaikan SPP:</b><br />
+			<input
+				type="radio"
+				name="opsi"
+				value="ya"
+			/>
+			Ya <br />
+			<input
+				type="radio"
+				name="opsi"
+				value="tidak"
+			/>
+			Tidak <br />
+			<input
+				type="radio"
+				name="opsi"
+				value="ragu"
+			/>
+			Ragu-ragu <br /><br />
+
+			<b>Jurusan:</b><br />
+			<select name="jurusan">
+				<option value="TInf">Teknik Informatika</option>
+				<option value="MI">D3 Manajemen Informatika</option>
+				<option value="TI">Teknik Industri</option>
+			</select>
+			<b>Komentar:</b><br />
+			<textarea
+				rows="10"
+				cols="40"
+				wrap="physical"
+				name="komentar"
+			></textarea
+			><br /><br />
+		</form>
+		<br />
+		<p>
+			<a href="https://facebook.com">Facebook</a> <br />
+			<a href="https://instagram.com">Instagram</a> <br />
+			<a href="https://twitter.com">Twitter</a>
+		</p>
+		<br />
+		<a
+			href="http://facebook.com"
+			style="
+				background-color: #3b5998;
+				color: white;
+				padding: 0.5rem 1.25rem;
+				border-radius: 0.3rem;
+				text-decoration: none;
+			"
+		>
+			Facebook
+		</a>
+		<br />
+		<br />
+		<p>
+			Untuk lebih lengkapnya silakan kunjungi halaman
+			<a
+				href="https://jagongoding.com/python"
+				title="Tutorial Python"
+				>berikut</a
+			>
+		</p>
+		<br />
+		<p>
+			<a href="https://jagongoding.com/web/html/dasar/overview">
+				Tutorial HTML Dasar (self)
+			</a>
+		</p>
+
+		<p>
+			<a
+				href="https://jagongoding.com/web/php/dasar/overview"
+				target="_blank"
+			>
+				Tutorial PHP Dasar (blank)
+			</a>
+		</p>
+
+		<p>
+			<a
+				href="https://jagongoding.com/python/dasar/overview"
+				target="_parent"
+			>
+				Tutorial Python Dasar (parent)
+			</a>
+		</p>
+
+		<p>
+			<a
+				href="https://jagongoding.com/python/menengah/overview"
+				target="_top"
+			>
+				Tutorial Python Menengah (top)
+			</a>
+		</p>
+
+		<br />
+
+		<h4>Contoh URL lengkap</h4>
+		<a href="https://jagongoding.com/python/dasar/overview">
+			Tutorial Python
+		</a>
+
+		<h4>Contoh URL relatif</h4>
+		<a href="/web/php/dasar/overview"> Tutorial PHP </a>
+
+		<br />
+		<a href="/">
+			<img
+				src="bg.jpg"
+				alt=""
+			/>
+		</a>
+	</body>
+</html>
